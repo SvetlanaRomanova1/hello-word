@@ -3,12 +3,9 @@ h1 {
     text-align: center;
     font-family: "Arial Hebrew Scholar";
     letter-spacing: 2px;
+    background: url(../img/фото.jpeg)
 }
 
 body {
     background-color: thistle;
-}
-
-.header {
-    background: url(../img/фото.jpeg)
 }
