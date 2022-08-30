@@ -1,4 +1,10 @@
 h1 {
     color:cadetblue;
     text-align: center;
+    font-family: "Arial Hebrew Scholar";
+    letter-spacing: 1px;
+}
+
+body {
+    background-color: thistle;
 }
