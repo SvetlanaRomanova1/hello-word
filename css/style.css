@@ -8,3 +8,11 @@ h1 {
 body {
     background-color: thistle;
 }
+
+.header {
+    height: 700px;
+    background: url(/img/фото.jpeg)
+    padding-left: 40%;
+    padding-top: 100px;
+    border-radius: 10px;
+}
