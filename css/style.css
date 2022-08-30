@@ -10,9 +10,5 @@ body {
 }
 
 .header {
-    height: 700px;
-    background: url(/img/фото.jpeg) center center/cover no-repeat;
-    padding-left: 40%;
-    padding-top: 100px;
-    border-radius: 10px;
+    background: url(../img/фото.jpeg)
 }
