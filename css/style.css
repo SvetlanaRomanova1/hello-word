@@ -16,8 +16,114 @@ body {
     border-radius: 10px;
 }
 .avatar {
-    height: 200px;
+    height: 252px;
     width: auto;
     border-radius:10px;
     margin-left: 74px;
+    flex: 100px 0 1;
+}
+
+.container-avatar {
+    display: flex;
+    border-bottom-style: solid;
+    border-color: gainsboro;
+}
+
+.last-name {
+    font-size: 30px;
+    margin: 0;
+}
+
+.container-description {
+    flex: 3;
+    padding-left: 20px;
+    margin: 0 0 10px 0;
+}
+
+.junior {
+    margin: 8px 0 0 0;
+    border-top-style: solid;
+    border-color:gainsboro;
+}
+
+
+.age {
+    margin: 5px 0 0;
+
+}
+.city {
+    margin: 5px 0 0;
+
+}
+
+.citizenship {
+    margin: 5px 0 0;
+}
+.list-info {
+    border-bottom-style: solid;
+    border-color: gainsboro;
+    padding: 0 0 14px 24px;
+    box-sizing: border-box;
+
+}
+
+.list-info {
+    list-style: none;
+}
+
+.list-info li::before {
+    content: "\2022";
+    color: #673ab7;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.list-info-mail {
+    border: unset;
+}
+
+.container-about-me {
+    margin: 8px 0 0 0;
+    padding: 0 0 0 20px;
+}
+
+.about-me-title {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.container {
+    width: 25%;
+    background-color:lightgray;
+}
+
+.skills {
+    text-align: left;
+    padding-right: 25px;
+    line-height: 15px;
+    color:black;
+}
+
+.html {width: 90%; background-color:#2196F3;}
+.css {width: 80%; background-color: #2196F3;}
+.js {width: 65%; background-color: #2196F3;}
+.php {width: 30%; background-color: #2196F3;}
+.php {width: 40%; background-color: #2196F3;}
+.php {width: 50%; background-color: #2196F3;}
+
+.container-employment {
+   padding: 2px 0 0 ;
+    font-size: 16px;
+    margin: 0;
+}
+
+.Diploma {
+    height: 200px;
+    width: auto;
+    border-radius:10px;
+    margin-left: 7px;
+    flex: 100px 0 1;
+
 }
