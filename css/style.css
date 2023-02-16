@@ -1,73 +1,69 @@
-h1 {
-    color:cornsilk ;
-    text-align: center;
-    font-family: "Arial Hebrew Scholar";
-    letter-spacing: 2px;
-}
-
+/* Установка общих стилей для всего документа */
 body {
+    font-family: 'Open Sans', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
     background-color: thistle;
 }
 
+/* Стиль заголовка */
+h1 {
+    color: cornsilk;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+/* Стиль блока хедера */
 .header {
     height: 700px;
     padding-left: 40%;
     padding-top: 100px;
     border-radius: 10px;
 }
+
+/* Стиль аватарки */
 .avatar {
     height: 252px;
     width: auto;
-    border-radius:10px;
+    border-radius: 10px;
     margin-left: 74px;
-    flex: 100px 0 1;
 }
 
+/* Стиль контейнера аватарки */
 .container-avatar {
     display: flex;
-    border-bottom-style: solid;
-    border-color: gainsboro;
+    border-bottom: 1px solid gainsboro;
 }
 
+/* Стиль фамилии */
 .last-name {
     font-size: 30px;
     margin: 0;
 }
 
+/* Стиль блока с дополнительной информацией */
 .container-description {
     flex: 3;
     padding-left: 20px;
     margin: 0 0 10px 0;
 }
 
+/* Стиль строки "Junior" */
 .junior {
     margin: 8px 0 0 0;
-    border-top-style: solid;
-    border-color:gainsboro;
+    border-top: 1px solid gainsboro;
 }
 
-
-.age {
-    margin: 5px 0 0;
-
-}
-.city {
-    margin: 5px 0 0;
-
-}
-
-.citizenship {
+/* Стиль строки с возрастом */
+.age, .city, .citizenship {
     margin: 5px 0 0;
 }
+
+/* Стиль списков */
 .list-info {
-    border-bottom-style: solid;
-    border-color: gainsboro;
+    border-bottom: 1px solid gainsboro;
     padding: 0 0 14px 24px;
     box-sizing: border-box;
-
-}
-
-.list-info {
     list-style: none;
 }
 
@@ -80,50 +76,91 @@ body {
     margin-left: -1em;
 }
 
-.list-info-mail {
-    border: unset;
-}
-
+/* Стиль блока с информацией о пользователе */
 .container-about-me {
     margin: 8px 0 0 0;
-    padding: 0 0 0 20px;
 }
 
+/* Стиль заголовка блока с информацией о пользователе */
 .about-me-title {
     font-weight: 600;
-    font-size: 24px;
+    font-size: 20px;
+}
+.my-education {
+    font-weight: 600;
+    font-size: 20px;
 }
 
+
+/* Стиль контейнера со списком навыков */
 .container {
     width: 25%;
-    background-color:lightgray;
+    background-color: lightgray;
 }
 
+/* Стиль списка навыков */
 .skills {
     text-align: left;
     padding-right: 25px;
     line-height: 15px;
-    color:black;
+    color: black;
 }
 
-.html {width: 90%; background-color:#2196F3;}
-.css {width: 80%; background-color: #2196F3;}
-.js {width: 65%; background-color: #2196F3;}
-.php {width: 30%; background-color: #2196F3;}
-.php {width: 40%; background-color: #2196F3;}
-.php {width: 50%; background-color: #2196F3;}
+/* Стили полос прогресса для навыков */
+.html {
+    width: 90%;
+    background-color: #2196F3;
+}
 
+.css {
+    width: 80%;
+    background-color: #2196F3;
+}
+
+.js {
+    width: 65%;
+    background-color: #2196F3;
+}
+
+.php {
+    width: 30%;
+    background-color: #2196F3;
+}
+
+.php {
+    width: 40%;
+    background-color: #2196F3;
+}
+
+.php {
+    width: 50%;
+    background-color: #2196F3;
+}
+
+/* Стиль блока с информацией об опыте работы */
 .container-employment {
-   padding: 2px 0 0 ;
+    padding: 2px 0 0;
     font-size: 16px;
     margin: 0;
 }
 
-.Diploma {
+/* Стиль блока о дипломе */
+.diploma {
     height: 200px;
     width: auto;
-    border-radius:10px;
+    border-radius: 10px;
     margin-left: 7px;
     flex: 100px 0 1;
 
+}
+
+.title-diploma {
+    font-weight: bold;
+}
+
+.project-work {
+    line-height: 20px;
+}
+.content-section {
+    padding: 0 0 0 20px;
 }
