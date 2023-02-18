@@ -85,10 +85,17 @@ h1 {
 .about-me-title {
     font-weight: 600;
     font-size: 20px;
+    margin: 16px 0 0px 0;
 }
 .my-education {
     font-weight: 600;
     font-size: 20px;
+    margin: 16px 0 0 0;
+}
+
+/* Стиль параграфа*/
+.paragraph {
+    margin: 10px 0;
 }
 
 
@@ -105,6 +112,34 @@ h1 {
     line-height: 15px;
     color: black;
 }
+/* Стили блока Опыта */
+.work-experience h4{
+    font-weight: 600;
+    font-size: 20px;
+    margin: 20px 0 0 0;
+}
+
+h4.the-first-line{
+    font-size: 15px;
+}
+h5.skills{
+margin: 12px 0 0 0 ;
+
+}
+.list-skills {
+    list-style: none;
+}
+
+.list-skills li:before {
+    content: "\2022"; /* Unicode character for bullet point */
+    margin-right: 6px;
+}
+
+.list-skills li {
+    line-height: 22px;
+}
+
+
 
 /* Стили полос прогресса для навыков */
 .html {
@@ -163,4 +198,10 @@ h1 {
 }
 .content-section {
     padding: 0 0 0 20px;
+}
+/* Стили блока Профессиональные курсы */
+.professional-courses {
+    font-weight: 600;
+    font-size: 20px;
+    margin: 20px 0 0 0;
 }
