@@ -1,207 +1,94 @@
-/* Установка общих стилей для всего документа */
-body {
-    font-family: 'Open Sans', sans-serif;
-    max-width: 1200px;
-    margin: 0 auto;
-    background-color: thistle;
-}
 
-/* Стиль заголовка */
-h1 {
-    color: cornsilk;
-    text-align: center;
-    letter-spacing: 2px;
-}
 
-/* Стиль блока хедера */
-.header {
-    height: 700px;
-    padding-left: 40%;
-    padding-top: 100px;
-    border-radius: 10px;
-}
-
-/* Стиль аватарки */
-.avatar {
-    height: 252px;
-    width: auto;
-    border-radius: 10px;
-    margin-left: 74px;
-}
-
-/* Стиль контейнера аватарки */
-.container-avatar {
+.acquaintance {
     display: flex;
-    border-bottom: 1px solid gainsboro;
+    justify-content: center;
+    flex: 70%;
 }
 
-/* Стиль фамилии */
-.last-name {
-    font-size: 30px;
+.acquaintance__info {
+    width: 100%;
+    margin: 0 0 0 20px;
+}
+
+.acquaintance__name {
     margin: 0;
+    padding: 10px 0 0 0;
+
 }
 
-/* Стиль блока с дополнительной информацией */
-.container-description {
-    flex: 3;
-    padding-left: 20px;
+
+
+
+
+
+
+.job {
+    display: flex;
+    gap: 0 16px;
+    margin: 20px 0;
+}
+
+.job__position {
     margin: 0 0 10px 0;
 }
 
-/* Стиль строки "Junior" */
-.junior {
-    margin: 8px 0 0 0;
-    border-top: 1px solid gainsboro;
+.job__year {
+    width: 110px;
 }
 
-/* Стиль строки с возрастом */
-.age, .city, .citizenship {
-    margin: 5px 0 0;
-}
-
-/* Стиль списков */
-.list-info {
-    border-bottom: 1px solid gainsboro;
-    padding: 0 0 14px 24px;
-    box-sizing: border-box;
-    list-style: none;
-}
-/*Стиль блока информации: номер телефона */
-.list-info li::before {
-    content: "\2022";
-    color: #673ab7;
-    font-weight: bold;
-    display: inline-block;
-    width: 1em;
-    margin-left: -1em;
-}
-
-/* Стиль блока с информацией о пользователе */
-.container-about-me {
-    margin: 8px 0 0 0;
-}
-
-/* Стиль заголовка блока с информацией о пользователе */
-.about-me-title {
-    font-weight: 600;
-    font-size: 20px;
-    margin: 16px 0 0px 0;
-}
-.my-education {
-    font-weight: 600;
-    font-size: 20px;
-    margin: 16px 0 0 0;
-}
-
-/* Стиль параграфа*/
-.paragraph {
+.job__project {
     margin: 10px 0;
 }
 
-
-/* Стиль контейнера со списком навыков */
-.container {
-    width: 25%;
-    background-color: lightgray;
-}
-
-/* Стиль списка навыков */
-.skills {
-    text-align: left;
-    padding-right: 25px;
-    line-height: 15px;
-    color: black;
-}
-/* Стили блока Опыта */
-.work-experience h4{
-    font-weight: 600;
-    font-size: 20px;
-    margin: 20px 0 0 0;
-}
-
-h4.the-first-line{
-    font-size: 15px;
-}
-h5.skills{
-margin: 12px 0 0 0 ;
-
-}
-.list-skills {
-    list-style: none;
-}
-
-.list-skills li:before {
-    content: "\2022"; /* Unicode character for bullet point */
-    margin-right: 6px;
-}
-
-.list-skills li {
-    line-height: 22px;
+.job__project-item {
+    margin: 0 0 5px 0;
 }
 
 
 
-/* Стили полос прогресса для навыков */
-.html {
-    width: 90%;
-    background-color: #2196F3;
+
+
+.course {
+    display: flex;
+    gap: 0 16px;
+    margin: 20px 0;
 }
 
-.css {
-    width: 80%;
-    background-color: #2196F3;
+.course__year {
+    width: 110px;
 }
 
-.js {
-    width: 65%;
-    background-color: #2196F3;
+.course__position {
+    margin: 0 0 10px 0;
 }
 
-.php {
-    width: 30%;
-    background-color: #2196F3;
+.course__diploma-image {
+    width: 300px;
+    height: 200px;
+    cursor: pointer;
+    transition: opacity 0.4s ease-in ;
 }
 
-.php {
-    width: 40%;
-    background-color: #2196F3;
+.course__diploma-image:hover {
+    opacity: .6;
+
 }
 
-.php {
-    width: 50%;
-    background-color: #2196F3;
-}
 
-/* Стиль блока с информацией об опыте работы */
-.container-employment {
-    padding: 2px 0 0;
-    font-size: 16px;
+.course__diploma {
+    width: 130px;
     margin: 0;
 }
 
-/* Стиль блока о дипломе */
-.diploma {
-    height: 200px;
-    width: auto;
-    border-radius: 10px;
-    margin-left: 7px;
-    flex: 100px 0 1;
-
+.course__title {
+    display: flex;
 }
 
-.title-diploma {
-    font-weight: bold;
-}
 
-.project-work {
-    line-height: 20px;
-}
-.content-section {
-    padding: 0 0 0 20px;
-}
-/* Стили блока Профессиональные курсы */
-.professional-courses {
-    font-weight: 600;
-    font-size: 20px;
-    margin: 20px 0 0 0;
-}
+
+
+
+
+
+

@@ -1,0 +1,11 @@
+.about-me__contacts-item {
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+    cursor: pointer;
+    transition: opacity 0.3s ease ;
+}
+
+.about-me__contacts-item:hover {
+    opacity: .4;
+}

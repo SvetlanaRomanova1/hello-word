@@ -1,0 +1,6 @@
+.experience__line {
+    flex: 73%;
+    height: 2px;
+    background-color: #262626;
+    margin: 0 6px;
+}
