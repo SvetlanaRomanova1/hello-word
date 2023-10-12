@@ -11,4 +11,4 @@
 
 ## Дополнительная информация
 
-https://svetlanaromanova1.github.io/summary/
+ссылка на проект  https://svetlanaromanova1.github.io/summary/
