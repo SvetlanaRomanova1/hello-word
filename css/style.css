@@ -89,6 +89,53 @@
 
 
 
+.about-me__language {
+    margin: 0;
+    padding: 4px 10px;
+    background:gray;
+}
+
+.about-me__skills {
+    margin: 0;
+    padding: 4px 10px;
+    background:gray;
+}
 
 
 
+.about-me__skill-level {
+    height: 20px;
+    background-color: #ccc;
+    position: relative;
+}
+.skill-level {
+    margin: 10px 0;
+    position: relative;
+    width: 100%;
+}
+
+.skill-level__bar {
+    background-color: #00bfff;
+    width: 50%;
+    line-height: 20px;
+    padding: 0 0 0 10px;
+}
+
+.skill-level__bar::after {
+    content: attr(data-percent);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+    color: #262626;
+    display: flex;
+    justify-content: flex-end;
+    right: 0;
+    width: 100%;
+
+}
+
+.education__item {
+    margin: 0 150px;
+}
